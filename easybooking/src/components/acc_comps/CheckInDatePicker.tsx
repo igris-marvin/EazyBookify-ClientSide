@@ -4,11 +4,11 @@ import 'react-datepicker/dist/react-datepicker.css'
 interface SDPProps {
     checkInText: string | undefined;
     checkInDate: Date | null;
-    updateDate: (date: Date | null) => void;
+    updateCheckInDate: (date: Date | null) => void;
 }
 
 export const CheckInDatePicker = (
-    { checkInDate, checkInText, updateDate}: SDPProps
+    { checkInDate, checkInText, updateCheckInDate}: SDPProps
 ) => {
 
     return (
@@ -16,11 +16,12 @@ export const CheckInDatePicker = (
             <DatePicker
                 selected={checkInDate}
                 value={checkInText}
-                onChange={ (e) => { updateDate(e) } }
+                onChange={ (e) => { updateCheckInDate(e) } }
                 onFocus={(e) => { e.target.blur()}}
                 className="w-00 merge-input"
                 minDate={new Date()}
                 dateFormat="Pp"
+                showIcon={true}
             />
         </>
     )

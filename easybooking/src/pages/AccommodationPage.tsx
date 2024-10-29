@@ -1,4 +1,4 @@
-import { NavComp } from "../components/acc_comps/NavComp"
+import { NavComp } from "../components/NavComp"
 
 export const AccommodationPage = () => {
 
