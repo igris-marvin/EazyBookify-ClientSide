@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+body p {
+    font-size: larger;
+}
+
+.nextBtn {
+    cursor: progress;
+}
+
+/*---------=========---------------- */
+.carousel-control-prev-icon {
+    border: 1px solid red;
+}
+
+/*---------=========---------------- */
+.row1 {
+    height: 120px;
+    background-color: aqua;
+}
+
+.row2 {
+    background-color: aqua;
+
+}
+
+.logo {
+    background-color: aqua;
+    cursor: context-menu;
+}
+
+.content {
+    display: flex;
+    background-color: aqua;
+}
+
+.home {
+    display: flex;
+    background-color: aqua;
+}
+
+li {
+    list-style: none;
+    background-color: aqua;
+    padding-top: 30px;
+    margin: 15px;
+
+}
+
+li a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: aqua;
+    font-size: larger;
+    color: aliceblue;
+
+}
+
+li a:hover {
+    background-color: rgb(36, 126, 126);
+    border-radius: 20px;
+}
+
+.Cover-all {
+    display: flex;
+    padding-left: 70px;
+}
+
+.login {
+    margin: 10px;
+}
+
+.second {
+    margin: 10px;
+}
+
+.profile-pic {
+    margin: 10px;
+}
+
+.currency {
+    display: flex;
+    margin-top: 45px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.currency:hover {
+    background-color: rgb(36, 126, 126);
+}
+
+.currency p {
+    padding-right: 10px;
+    cursor: context-menu;
+}
+
+.currency img {
+    height: 20px;
+    width: auto;
+    object-fit: cover;
+}
+
+.currency-links {
+    text-decoration: none;
+    color: white;
+}
+
+.currency-links:hover {
+    background: rgb(15, 29, 29);
+    cursor: pointer;
+}
+
+.profile-pic img {
+    height: 100px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.Cover-all button {
+    border: 0;
+    border-radius: 5px;
+}
+
+.Cover-all button:hover {
+    background-color: rgb(36, 126, 126);
+}
+
+.home-picture img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.search-bar {
+    display: flex;
+    height: 80px;
+}
+
+.search1 {
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.search1-btn {
+    background-color: transparent;
+    height: 60px;
+    width: 100%;
+    border: 0;
+    font-size: larger;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    margin: 10px;
+    background: url(Assets/Pictures/search.png) no-repeat left;
+    background-size: 35px;
+    text-decoration: underline;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: 0;
+}
+
+.search1 input {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+input[type="date"] {
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+/* popup code */
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+input[type=number]::-webkit-outer-spin-button {
+    padding-bottom: 1px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    padding-bottom: 1px;
+}
+
+.travellors-div {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.align-label {
+    display: block;
+}
+
+/* ---------- */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(184, 184, 184);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: rgb(33, 150, 243);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px rgb(33, 150, 243);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(23px);
+    -ms-transform: translateX(23px);
+    transform: translateX(23px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* ----------- */
+.pets {
+    display: flex;
+    width: fit-content;
+}
+
+.pets-div {
+    display: flex;
+    width: fit-content;
+}
+
+.switch-controller {
+    height: fit-content;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.done-btn {
+    padding-top: 10px;
+    margin-left: 65px;
+    ;
+}
+
+.done {
+    width: 80px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: rgb(33, 150, 243);
+    cursor: pointer;
+}
+
+.done:hover {
+    background-color: rgb(7, 118, 208);
+}
+
+.travellors-container {
+    width: fit-content;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.modal {
+    display: none;
+    width: auto;
+    height: fit-content;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.modal-content {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.439);
+    width: fit-content;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
+    z-index: 99;
+}
+
+#myBtn {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+/* the end of popup */
+.Trandinding img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.Trandinding {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+.Trandinding h1 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.mycontainer {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.advert img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.advert .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.myTextDiv {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: -5px;
+    z-index: 5;
+
+}
+
+.myTextDiv h5 {
+    background-color: rgb(255, 255, 255);
+}
+
+.types {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.types a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.types a:hover {
+    color: blue;
+}
+
+.types h1 {
+    /* text-align: center; */
+    background-color: rgb(255, 255, 255);
+}
+
+.types img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.myTextDiv {
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.myTextDiv h5 {
+    background-color: rgb(237, 237, 237);
+    /* text-align: center; */
+}
+
+.Places {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.Places img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.mapBtn {
+    margin: 10px;
+    height: 50px;
+    width: 200px;
+    align-content: center;
+}
+
+.quick-trip {
+    padding-bottom: 90px;
+}
+
+.quick-trip img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.quick-trip .col-sm-4 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.quick-trip-div {
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+}
+
+.quick-trip-div p {
+    background-color: rgb(237, 237, 237);
+    padding-top: 15px;
+}
+
+.upper {
+    background-color: aquamarine;
+    height: 230px;
+    border: 1px solid rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.upper .inner {
+    border-radius: 2px;
+    width: fit-content;
+    margin-top: 190px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.lowwer {
+    background-color: rgb(255, 255, 255);
+    height: 170px;
+    border: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tripstable,
+th,
+td {
+    border-collapse: collapse;
+}
+
+th {
+    font-size: larger;
+}
+
+.trips-btn {
+    background-color: aqua;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.trips h1 {
+    padding-bottom: 30px;
+}
+
+.bi-star-fill {
+    color: radial-gradient(white, yellow);
+}
+
+.upper a {
+    text-decoration: none;
+
+}
+
+.trips .row {
+    padding-bottom: 25px;
+}
+
+.special-price {
+    font-weight: bold;
+}
+
+.spacial {
+    padding-bottom: 50px;
+}
+
+table .down-price {
+    text-decoration: line-through;
+    color: rgb(134, 134, 134);
+}
+
+.lexury {
+    padding-bottom: 50px;
+}
+
+.lexury .all {
+    display: flex;
+    margin: 20px;
+
+}
+
+.lexury .all .myLeft {
+    width: 100%;
+    height: 250px;
+    border: 5px;
+    /*not affecting, why???*/
+    background-image: url(Assets/Pictures/cape\ town.avif);
+    background-size: cover;
+}
+
+.all .myRight {
+    width: 100%;
+    border-right: 5px;
+    margin-left: 10px;
+}
+
+.lexury .rate {
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 210px;
+    margin-left: 15px;
+    color: blue;
+}
+
+.lexury a {
+    text-decoration: none;
+}
+
+.lexury .myRight table {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 100px;
+
+}
+
+.luxury-btn {
+    background-color: aqua;
+    border-radius: 2px;
+    border: 0;
+}
+
+.inspiring-img {
+    padding-bottom: 50px;
+}
+
+.inspiring-img img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer .parent {
+    padding: 50px;
+    background-color: rgb(29, 28, 28);
+}
+
+footer .kid h4 {
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+
+}
+
+footer .kid ul li {
+    /* margin-bottom: 5px; */
+    background-color: rgb(29, 28, 28);
+}
+
+footer .kid .to-come {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300px;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+
+footer .kid a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300px;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease;
+    text-transform: capitalize;
+    background-color: rgb(29, 28, 28);
+}
+
+footer .kid a:hover {
+    padding-left: 7px;
+}
+
+footer .to-come:hover {
+    padding-left: 7px;
+    cursor: context-menu;
+}
+
+footer .row p {
+    font-size: 100px;
+    text-align: center;
+    cursor: context-menu;
+}
