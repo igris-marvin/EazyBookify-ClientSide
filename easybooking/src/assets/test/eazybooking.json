@@ -1,0 +1,16 @@
+{
+    "Accommodation": {},
+    "AccommodationAmenity": {},
+    "AccommodationBooking": {},
+    "AccommodationImage": {},
+    "AccommodationReview": {},
+    "AccommodationSubReview": {},
+    "AccommodationTransaction": {},
+    "Amenity": {},
+    "AmenityType": {},
+    "PropertyParking": {},
+    "PropertyType": {},
+    "Rating": {},
+    "ContactUsLog": {},
+    "ReviewAttribute" : {}
+}

@@ -1,0 +1,112 @@
+Types
+
+    BATHROOM
+        Bath Tub
+        Toilet Paper
+        Towels
+        Shower
+        Bidet
+
+    BEDROOM
+        Mosquito Net
+        Socket near the bed
+        Clothes Rack
+        Wi-Fi
+        Air Conditioning
+        Room Service
+        Smart TV
+        Luxury Bedding
+
+    LIVING_AREA
+        
+
+    PET_FRIENDLY
+        Pet bed
+        Pet food
+        Pet-House
+        Pet-Friendly Room
+
+    GENERAL
+        Lounge
+        Designated Smoking Area
+        Wake-up Service
+        Non-smoking rooms
+        Minimarket
+        Fan on request
+        Complementary breakfast
+        Fitness Center
+        Swimming Pool
+        Spa
+        Business Center
+        Babysitting Services
+        Amenities for Disabled Guests
+
+    FOOD_AND_DRINKS
+        Alcohol
+        Restaurant
+        Bar
+        Tea/Coffee maker
+        Coffee House
+        Kid Meals
+        Special diet menus(on request)
+
+    SAFETY_AND_SECURITY
+        Fire Extinguishers
+        Safety Deposit Box
+        24/7 Security Guards
+
+    CLEANING_SERVICES
+        Daily Housekeeping
+        Laundry
+        Ironing Service
+        Dry Cleaning
+
+    ENTERTAINMENT AND ACTIVITIES
+        Board Games
+        Puzzle Games
+        Play Station
+        XBox
+        Arcade Machines
+        Movie Library
+        Live Music
+        Cooking Classes
+        Book Collection
+        Theater Room
+        Walking Tours
+        Live Music/Performance
+        Game Drives
+        Horse Riding
+    
+    EXTRAS
+        Currency Exchange
+        Bicycle
+        Airport Transfer
+
+    RECEPTION_SERVICES
+        Luggage Storage
+        Invoice Provided
+        Private Check-In/Check-Out
+
+    RELAXATION
+        Sauna
+        Steam Room
+        Beauty salon
+        Massage services
+        Facial treatments
+        Manicure
+        Pedicure
+        Hair salon
+        Yoga classes
+        Spa bath
+        Jacuzzi
+        Infinity pool
+        Heated pool
+        Saltwater pool
+
+    VIEW
+        City View
+        Ocean View
+        Beach View
+        Forest View
+        Mountain View
+        Garden View

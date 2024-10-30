@@ -4,6 +4,16 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import { NavComp } from '../components/NavComp'
+import hotelBook from '../assets/images/acc_images/HOTEL-BOOK.jpeg'
+import artBoard from '../assets/images/acc_images/Artboard-1.png'
+import capeImage from '../assets/images/acc_images/cape_town.avif'
+import cityImage from '../assets/images/acc_images/City.jpeg'
+import famImage from '../assets/images/acc_images/Fam.avif'
+import beachImage from '../assets/images/acc_images/beach.jpeg'
+import advImage from '../assets/images/acc_images/advanture.jpeg'
+import romImage from '../assets/images/acc_images/romentic.avif'
+import adsImage from '../assets/images/acc_images/ads.png'
+import { TrendingSection } from '../components/acc_comps/TrendingSection'
 
 export const AccommodationPage = () => {
 
@@ -23,62 +33,7 @@ export const AccommodationPage = () => {
 
     <br />
 
-    <section className="Trandinding">
-
-      <div className="container mycontainer">
-        <h1 >Popular/Tranding</h1>
-        <div id="slider" className="carousel slide" data-bs-ride="carousel">
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <div className="row">
-                <div className="col">
-                  <a href="#trand0"><img src="Assets/Pictures/HOTEL BOOK.jpeg" className="d-block w-100" alt="Placeholder Image 1" /></a>
-                </div>
-                <div className="col">
-                  <a href="#trand1"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 2" /></a>
-                </div>
-                <div className="col">
-                  <a href="#trand2"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 3" /></a>
-                </div>
-                <div className="col">
-                  <a href="#trand3"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 4" /></a>
-                </div>
-                <div className="col">
-                  <a href="#trand4"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 5" /></a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col">
-                  <a href="#trand6"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 6" /></a>
-                </div>
-                <div className="col">
-                  <a href="#trand7"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 7" /></a>
-                </div>
-                <div className="col">
-                  <a href="#trand8"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 8" /></a>
-                </div>
-                <div className="col">
-                  <a href="#trand9"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 9" /></a>
-                </div>
-                <div className="col">
-                  <a href="#trand10"><img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 10" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button className="carousel-control-prev nextBtn" type="button" data-bs-target="#slider" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button className="carousel-control-next nextBtn" type="button" data-bs-target="#slider" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </section>
+    <TrendingSection />
 
     <section className="advert">
 
@@ -86,12 +41,12 @@ export const AccommodationPage = () => {
         <div className="row">
           <div className="col-sm-6">
             <picture>
-              <img src="Assets/Pictures/HOTEL BOOK.jpeg" alt="image" />
+              <img src={hotelBook} alt="image" />
             </picture>
           </div>
           <div className="col-sm-6">
             <picture>
-              <img src="Assets/Pictures/ads.png" alt="image" />
+              <img src={adsImage} alt="image" />
             </picture>
           </div>
         </div>
@@ -107,7 +62,7 @@ export const AccommodationPage = () => {
             <div className="carousel-item active">
               <div className="row">
                 <div className="col">
-                  <img src="Assets/Pictures/HOTEL BOOK.jpeg" className="d-block w-100" alt="Placeholder Image 1" />
+                  <img src={hotelBook} className="d-block w-100" alt="Placeholder Image 1" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Hotel</h5>
@@ -115,7 +70,7 @@ export const AccommodationPage = () => {
                   </a>
                 </div>
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 2" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 2" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Motel</h5>
@@ -123,7 +78,7 @@ export const AccommodationPage = () => {
                   </a>
                 </div>
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 3" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 3" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Guest House</h5>
@@ -131,7 +86,7 @@ export const AccommodationPage = () => {
                   </a>
                 </div>
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 4" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 4" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Lodge</h5>
@@ -139,7 +94,7 @@ export const AccommodationPage = () => {
                   </a>
                 </div>
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 5" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 5" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Flat</h5>
@@ -151,7 +106,7 @@ export const AccommodationPage = () => {
             <div className="carousel-item">
               <div className="row">
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 6" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 6" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Villi</h5>
@@ -159,7 +114,7 @@ export const AccommodationPage = () => {
                   </a>
                 </div>
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 7" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 7" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Hotel</h5>
@@ -167,7 +122,7 @@ export const AccommodationPage = () => {
                   </a>
                 </div>
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 8" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 8" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Hotel</h5>
@@ -175,7 +130,7 @@ export const AccommodationPage = () => {
                   </a>
                 </div>
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 9" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 9" />
                   <a href="#Hotel">
                     <div className="myTextDiv">
                       <h5>Hotel</h5>
@@ -183,7 +138,7 @@ export const AccommodationPage = () => {
                   </a>
                 </div>
                 <div className="col">
-                  <img src="Assets/Pictures/Artboard 1.png" className="d-block w-100" alt="Placeholder Image 10" />
+                  <img src={artBoard} className="d-block w-100" alt="Placeholder Image 10" />
                   <a href="#Motel">
                     <div className="myTextDiv d-block w-100">
                       <h5>Hotel</h5>
@@ -213,30 +168,30 @@ export const AccommodationPage = () => {
         <div className="row">
           <div className="col-sm-4">
             <picture>
-              <a href="#9"><img src="Assets/Pictures/cape town.avif" alt="image" /></a>
+              <a href="#9"><img src={capeImage} alt="image" /></a>
             </picture>
           </div>
           <div className="col-sm-8">
             <picture>
-              <a href="#10"><img src="Assets/Pictures/cape town.avif" alt="image" /></a>
+              <a href="#10"><img src={capeImage} alt="image" /></a>
             </picture>
           </div>
         </div>
         <div className="row">
           <div className="col-sm-4">
             <picture>
-              <a href="#11"><img src="Assets/Pictures/cape town.avif" alt="image" /></a>
+              <a href="#11"><img src={capeImage} alt="image" /></a>
             </picture>
           </div>
           <div className="col-sm-4">
             <picture>
-              <a href="#12"><img src="Assets/Pictures/cape town.avif" alt="image" /></a>
+              <a href="#12"><img src={capeImage} alt="image" /></a>
             </picture>
           </div>
           <div className="col-sm-4">
             <picture>
               <a href="#13">
-                <img src="Assets/Pictures/cape town.avif" alt="image" />
+                <img src={capeImage} alt="image" />
                 <div className="innerTxt">
                   <p>Cape Town</p>
                 </div>
@@ -258,7 +213,7 @@ export const AccommodationPage = () => {
         <div className="row">
           <div className="col-sm-4">
             <picture>
-              <img src="Assets/Pictures/City.jpeg" alt="image" />
+              <img src={cityImage} alt="image" />
               <a href="#City"><div className="quick-trip-div">
                 <p>City</p>
               </div>
@@ -267,7 +222,7 @@ export const AccommodationPage = () => {
           </div>
           <div className="col-sm-2">
             <picture>
-              <img src="Assets/Pictures/Fam.avif" alt="image" />
+              <img src={famImage} alt="image" />
               <a href="#Family"><div className="quick-trip-div">
                 <p>Family</p>
               </div>
@@ -276,7 +231,7 @@ export const AccommodationPage = () => {
           </div>
           <div className="col-sm-2">
             <picture>
-              <img src="Assets/Pictures/beach.jpeg" alt="image" />
+              <img src={beachImage} alt="image" />
               <a href="#Beach"><div className="quick-trip-div">
                 <p>Beach</p>
               </div>
@@ -285,7 +240,7 @@ export const AccommodationPage = () => {
           </div>
           <div className="col-sm-2">
             <picture>
-              <img src="Assets/Pictures/advanture.jpeg" alt="image" />
+              <img src={advImage} alt="image" />
               <a href="#Adventure">
                 <div className="quick-trip-div">
                   <p>Adventure</p>
@@ -295,7 +250,7 @@ export const AccommodationPage = () => {
           </div>
           <div className="col-sm-2">
             <picture>
-              <img src="Assets/Pictures/romentic.avif" alt="image" />
+              <img src={romImage} alt="image" />
               <a href="#Romantic">
                 <div className="quick-trip-div">
                   <p>Romantic</p>
@@ -1118,7 +1073,7 @@ export const AccommodationPage = () => {
         <div className="row">
           <div className="col">
             <picture>
-              <img src="Assets/Pictures/City.jpeg" alt="image" />
+              <img src={cityImage} alt="image" />
             </picture>
           </div>
         </div>
